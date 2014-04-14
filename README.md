@@ -1,4 +1,6 @@
 m101p
 =====
 
-M101P: MongoDB for Developers
+Exercices of M101P: MongoDB for Developers
+
+
