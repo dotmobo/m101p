@@ -1,0 +1,8 @@
+use test
+db.grades.aggregate([
+    {$unwind: '$scores'},
+    {$match: {'scores.type': {$ne:'quiz'}}},
+    {$group:{_id:{'student':'$student_id', 'class':'$class_id'},
+    student_average:{$avg:'$scores.score'}}},
+    {$group: {_id:{'class':"$_id.class"}, class_average:{$avg:"$student_average"}}},
+     {$sort: {'class_average':-1}}])
