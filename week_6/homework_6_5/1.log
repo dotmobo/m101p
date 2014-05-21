@@ -1,0 +1,99 @@
+2014-05-21T15:22:05.107+0200 [initandlisten] MongoDB starting : pid=10130 port=27017 dbpath=/data/rs1 64-bit host=peda-bohn-pc2
+2014-05-21T15:22:05.107+0200 [initandlisten] db version v2.6.1
+2014-05-21T15:22:05.107+0200 [initandlisten] git version: 4b95b086d2374bdcfcdf2249272fb552c9c726e8
+2014-05-21T15:22:05.107+0200 [initandlisten] build info: Linux build14.nj1.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2014-05-21T15:22:05.107+0200 [initandlisten] allocator: tcmalloc
+2014-05-21T15:22:05.107+0200 [initandlisten] options: { net: { port: 27017 }, processManagement: { fork: true }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "/data/rs1", smallFiles: true }, systemLog: { destination: "file", path: "1.log" } }
+2014-05-21T15:22:05.178+0200 [initandlisten] journal dir=/data/rs1/journal
+2014-05-21T15:22:05.179+0200 [initandlisten] recover : no journal files present, no recovery needed
+2014-05-21T15:22:05.260+0200 [initandlisten] waiting for connections on port 27017
+2014-05-21T15:22:05.266+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:05.266+0200 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-05-21T15:22:06.266+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:07.266+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:08.266+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:09.267+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:10.267+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:11.268+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:12.268+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:13.268+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:14.268+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:15.269+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:16.269+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:17.269+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:18.269+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:19.270+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:20.270+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:21.270+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:22.257+0200 [initandlisten] connection accepted from 127.0.0.1:47680 #1 (1 connection now open)
+2014-05-21T15:22:22.270+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:23.271+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:24.271+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:25.271+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:26.271+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:27.272+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:28.272+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:29.272+0200 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-21T15:22:30.206+0200 [conn1] replSet replSetInitiate admin command received from client
+2014-05-21T15:22:30.206+0200 [conn1] replSet replSetInitiate config object parses ok, 3 members specified
+2014-05-21T15:22:30.208+0200 [conn1] replSet replSetInitiate all members seem up
+2014-05-21T15:22:30.208+0200 [conn1] ******
+2014-05-21T15:22:30.208+0200 [conn1] creating replication oplog of size: 64MB...
+2014-05-21T15:22:30.209+0200 [FileAllocator] allocating new datafile /data/rs1/local.1, filling with zeroes...
+2014-05-21T15:22:30.209+0200 [FileAllocator] creating directory /data/rs1/_tmp
+2014-05-21T15:22:30.291+0200 [FileAllocator] done allocating datafile /data/rs1/local.1, size: 128MB,  took 0.042 secs
+2014-05-21T15:22:30.331+0200 [conn1] ******
+2014-05-21T15:22:30.331+0200 [conn1] replSet info saving a newer config version to local.system.replset: { _id: "m101", version: 1, members: [ { _id: 0, host: "localhost:27017" }, { _id: 1, host: "localhost:27018" }, { _id: 2, host: "localhost:27019" } ] }
+2014-05-21T15:22:30.331+0200 [conn1] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2014-05-21T15:22:30.331+0200 [conn1] 	 added index to empty collection
+2014-05-21T15:22:30.331+0200 [conn1] replSet saveConfigLocally done
+2014-05-21T15:22:30.331+0200 [conn1] replSet replSetInitiate config now saved locally.  Should come online in about a minute.
+2014-05-21T15:22:30.331+0200 [conn1] command admin.$cmd command: replSetInitiate { replSetInitiate: { _id: "m101", members: [ { _id: 0.0, host: "localhost:27017" }, { _id: 1.0, host: "localhost:27018" }, { _id: 2.0, host: "localhost:27019" } ] } } keyUpdates:0 numYields:0 locks(micros) W:123412 reslen:112 125ms
+2014-05-21T15:22:30.332+0200 [rsStart] replSet I am localhost:27017
+2014-05-21T15:22:30.332+0200 [rsHealthPoll] replSet member localhost:27019 is up
+2014-05-21T15:22:30.332+0200 [rsHealthPoll] replSet member localhost:27018 is up
+2014-05-21T15:22:30.333+0200 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2014-05-21T15:22:30.333+0200 [rsStart] 	 added index to empty collection
+2014-05-21T15:22:30.343+0200 [rsStart] replSet STARTUP2
+2014-05-21T15:22:30.344+0200 [rsSync] replSet SECONDARY
+2014-05-21T15:22:30.784+0200 [initandlisten] connection accepted from 127.0.0.1:47684 #2 (2 connections now open)
+2014-05-21T15:22:31.059+0200 [initandlisten] connection accepted from 127.0.0.1:47685 #3 (3 connections now open)
+2014-05-21T15:22:32.332+0200 [rsHealthPoll] replset info localhost:27019 thinks that we are down
+2014-05-21T15:22:32.332+0200 [rsHealthPoll] replset info localhost:27018 thinks that we are down
+2014-05-21T15:22:32.332+0200 [rsHealthPoll] replSet member localhost:27019 is now in state STARTUP2
+2014-05-21T15:22:32.333+0200 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+2014-05-21T15:22:32.333+0200 [rsMgr] not electing self, localhost:27019 would veto with 'I don't think localhost:27017 is electable'
+2014-05-21T15:22:32.334+0200 [rsMgr] not electing self, localhost:27019 would veto with 'I don't think localhost:27017 is electable'
+2014-05-21T15:22:38.334+0200 [rsMgr] replSet info electSelf 0
+2014-05-21T15:22:38.345+0200 [rsMgr] replSet PRIMARY
+2014-05-21T15:22:46.788+0200 [conn2] end connection 127.0.0.1:47684 (2 connections now open)
+2014-05-21T15:22:46.788+0200 [initandlisten] connection accepted from 127.0.0.1:47689 #4 (4 connections now open)
+2014-05-21T15:22:46.868+0200 [initandlisten] connection accepted from 127.0.0.1:47690 #5 (4 connections now open)
+2014-05-21T15:22:46.870+0200 [initandlisten] connection accepted from 127.0.0.1:47691 #6 (5 connections now open)
+2014-05-21T15:22:46.872+0200 [conn6] end connection 127.0.0.1:47691 (4 connections now open)
+2014-05-21T15:22:46.934+0200 [conn5] end connection 127.0.0.1:47690 (3 connections now open)
+2014-05-21T15:22:47.064+0200 [conn3] end connection 127.0.0.1:47685 (2 connections now open)
+2014-05-21T15:22:47.064+0200 [initandlisten] connection accepted from 127.0.0.1:47692 #7 (3 connections now open)
+2014-05-21T15:22:47.142+0200 [initandlisten] connection accepted from 127.0.0.1:47693 #8 (4 connections now open)
+2014-05-21T15:22:47.144+0200 [initandlisten] connection accepted from 127.0.0.1:47694 #9 (5 connections now open)
+2014-05-21T15:22:47.145+0200 [conn9] end connection 127.0.0.1:47694 (4 connections now open)
+2014-05-21T15:22:47.174+0200 [conn8] end connection 127.0.0.1:47693 (3 connections now open)
+2014-05-21T15:22:47.789+0200 [initandlisten] connection accepted from 127.0.0.1:47695 #10 (4 connections now open)
+2014-05-21T15:22:47.789+0200 [initandlisten] connection accepted from 127.0.0.1:47696 #11 (5 connections now open)
+2014-05-21T15:22:48.065+0200 [initandlisten] connection accepted from 127.0.0.1:47697 #12 (6 connections now open)
+2014-05-21T15:22:48.065+0200 [initandlisten] connection accepted from 127.0.0.1:47698 #13 (7 connections now open)
+2014-05-21T15:22:48.336+0200 [rsHealthPoll] replSet member localhost:27019 is now in state SECONDARY
+2014-05-21T15:22:48.336+0200 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+2014-05-21T15:22:48.873+0200 [slaveTracking] build index on: local.slaves properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.slaves" }
+2014-05-21T15:22:48.873+0200 [slaveTracking] 	 added index to empty collection
+2014-05-21T15:22:59.334+0200 [conn1] end connection 127.0.0.1:47680 (6 connections now open)
+2014-05-21T15:23:02.480+0200 [initandlisten] connection accepted from 127.0.0.1:47702 #14 (7 connections now open)
+2014-05-21T15:23:02.492+0200 [conn14] end connection 127.0.0.1:47702 (6 connections now open)
+2014-05-21T15:23:05.261+0200 [clientcursormon] mem (MB) res:31 virt:857
+2014-05-21T15:23:05.261+0200 [clientcursormon]  mapped (incl journal view):320
+2014-05-21T15:23:05.261+0200 [clientcursormon]  connections:6
+2014-05-21T15:23:05.261+0200 [clientcursormon]  replication threads:32
+2014-05-21T15:23:16.793+0200 [conn4] end connection 127.0.0.1:47689 (5 connections now open)
+2014-05-21T15:23:16.793+0200 [initandlisten] connection accepted from 127.0.0.1:47708 #15 (7 connections now open)
+2014-05-21T15:23:17.069+0200 [conn7] end connection 127.0.0.1:47692 (5 connections now open)
+2014-05-21T15:23:17.069+0200 [initandlisten] connection accepted from 127.0.0.1:47709 #16 (7 connections now open)
